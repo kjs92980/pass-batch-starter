@@ -1,7 +1,5 @@
-.PHONY: docker-up docker-down
-
-docker-up:
+db-up:
 	docker-compose up -d --force-recreate
 
-docker-down:
+db-down:
 	docker-compose down -v
